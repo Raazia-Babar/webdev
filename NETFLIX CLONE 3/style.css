@@ -1,0 +1,682 @@
+ * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ body {
+    background-color: rgb(48, 46, 46);
+ }
+
+ .first {
+    background-image: url("background.jpg");
+    height: 700px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: relative;
+
+ }
+
+ .black {
+    background-color: rgba(0, 0, 0, 0.588);
+    height: 700px;
+    width: 100vw;
+    position: absolute;
+ }
+
+ .head {
+    width: auto;
+    margin: 0px auto 0px auto;
+    height: auto;
+   
+ }
+
+ .nav {
+    width: 78vw;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .nav .netflixIcon img {
+    height: 40px;
+ }
+
+ .center {
+    padding-top: 200px;
+ }
+
+ .nav .signin button {
+    height: 36px;
+    width: 85px;
+    background-color: red;
+    color: rgb(195, 203, 203);
+
+ }
+
+ .firstline {
+    color: azure;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .secondline {
+    color: azure;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 18px;
+ }
+
+ .thirdline {
+    color: azure;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 22px;
+ }
+
+ .enter {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding-top: 15px;
+ }
+
+ .emailbox {
+    width: 370px;
+    border: 2px solid grey;
+    height: 35px;
+    color: azure;
+    font-size: small;
+    padding: 10px;
+    border-radius: 4px;
+ }
+
+ .button {
+    width: 230px;
+    height: 59px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .button img {
+    filter: brightness(0) invert(1);
+ }
+
+ .second {
+    background-color: black;
+    height: 570px;
+    width: 100vw;
+    margin-top: 8px;
+
+ }
+
+ .second .sec {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    height: 426px;
+ }
+
+ .second .sec .textpart {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .second .sec .textpart .first1 {
+    color: azure;
+    font-weight: 900;
+    font-size: 3rem;
+ }
+
+ .second .sec .textpart .second1 {
+    color: azure;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 18px;
+    padding-right: 51px;
+ }
+
+ .second .sec .imagepart {
+    width: 40vw;
+ }
+
+ .imagepart .container {
+    width: 39vw;
+    height: 30vw;
+    position: relative;
+    overflow: hidden;
+
+ }
+
+ .imagepart .container .frame {
+    width: 40vw;
+    height: 30vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+
+ .imagepart .container .background {
+    width: 464px;
+    padding-top: 5vw;
+    padding-left: 5.3vw;
+ }
+
+
+
+ .third {
+    background-color: black;
+    height: 570px;
+    width: 100vw;
+    margin-top: 8px;
+    display:flex;
+
+ }
+ .third .download{
+   width: 50vw;
+   display: flex;
+   overflow: hidden;
+}
+.mobile{
+   width: 550px;
+   height: 434.225px;
+position: absolute;
+margin-top: 58px;
+}
+.bottom{
+   display: flex;
+   border: 2px solid grey;
+   border-radius: 10px;
+   width: 289.500px;
+   height: 100px;
+   padding: 8px,12px;
+   position: relative;
+   top: 360px;
+   left: 322px;
+   box-sizing: border-box;
+   background-color: black;
+}
+.boxshot img{
+   width: 57px;
+   height: 70px;
+   padding: 10px;
+}
+.Downloading img{
+   width: 48px;
+   height: 55px;
+   padding-left: 30px;
+   padding-top: 15px;
+
+
+}
+.strange{
+   color: white;
+   font-size: medium;
+   font-weight: bold;
+   padding-top: 23px;
+}
+.dtext{
+   color: rgb(53, 53, 250);
+   font-size: small;
+}
+.disc{
+   width:50vw;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.disc .onee{
+   padding-right: 193px;
+    color: azure;
+       font-size: 3rem;
+       font-weight: 900;
+   }
+   .disc .tew{
+       padding-right: 107px;
+       color: white;
+       font-size: 1.5rem;
+   
+   }
+ .fourth {
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 8px;
+ }
+
+ .fifth {
+    background-color: black;
+    height: 570px;
+    width: 100vw;
+    margin-top: 8px;
+ }
+ .parent{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .cartoon{
+   display: flex;
+   align-items: center;
+   height: 560px;
+ }
+ .cartoon img{
+width: 40vw;
+
+ }
+ .textchild{
+   width: 40vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .textchild .p1{
+   font-weight: 900;
+   font-size: 3rem;
+   color: azure;
+ }
+ .textchild .p2{
+   color: azure;
+   font-size: 1.5rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-top: 18px;
+ }
+
+ .sixth {
+    background-color: black;
+    height: 900px;
+    width: 100vw;
+    margin-top: 8px;
+
+
+ }
+
+ .sixth .heading {
+    color: azure;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top: 70px;
+    padding-bottom: 20px;
+ }
+
+ .sixth .questions {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .sixth .questions .que {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(48, 46, 46);
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ .sixth .questions .que .Q {
+    color: azure;
+    font-size: 1.5rem;
+
+ }
+
+ .sixth .questions .que .plus {
+    filter: brightness(0) invert(1);
+
+ }
+
+ .sixth .endline {
+    color: azure;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 40px;
+
+ }
+
+ .sixth .endemail {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 4px;
+
+ }
+
+ .sixth .endemail .enter2 {
+    width: 370px;
+    border: 2px solid grey;
+    height: 35px;
+    color: azure;
+    font-size: small;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ .sixth .endemail .buttons .button {
+    width: 230px;
+    height: 59px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+ }
+
+ .sixth .endemail .buttons .button img {
+    filter: brightness(0) invert(1);
+ }
+
+
+ .seven {
+    background-color: black;
+    height: 390px;
+    width: 100vw;
+    margin-top: 8px;
+    color: rgb(111, 113, 114);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ .seven .footer {
+    width: 78vw;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    position: relative;
+ }
+
+ .footer a {
+    color: rgb(196, 196, 196);
+ }
+
+ .ul {
+    margin-top: 22px;
+ }
+
+ .footer ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    /* 3 columns */
+    grid-template-rows: repeat(4, 1fr);
+    ;
+    row-gap: 20px;
+    font-size: 0.87rem;
+
+ }
+
+ .english {
+    margin-top: 22px;
+    background-color: black;
+    height: 35px;
+    width: 130px;
+    border: 0.5px solid rgb(101, 102, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .english select {
+    border: none;
+    background-color: black;
+    color: azure;
+    font-size: medium;
+    font-weight: bold;
+ }
+
+ .english img {
+    height: min-content;
+    filter: brightness(0) invert(1);
+
+ }
+
+ .theend {
+    color: rgb(178, 181, 183);
+    margin-top: 22px;
+ }
+
+
+
+ @media only screen and (max-width:599px) {
+    .enter {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .emailbox {
+       width: 86vw;
+    }
+
+    .button {
+
+       width: 170px;
+       font-size: 1.2rem;
+       height: 52px;
+       margin-top: 12px;
+    }
+.fifth{
+   height: 80vh;
+}
+    .sixth .endemail {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .sixth .endemail .enter2 {
+       width: 86vw;
+    }
+
+    .sixth .endemail .buttons .button {
+       width: 170px;
+       font-size: 1.2rem;
+       height: 52px;
+       margin-top: 12px;
+    }
+ }
+ @media only screen and (max-width:960px) and (min-width:691px){
+   .fifth{
+      height: 755px;
+   }
+ }
+ @media only screen and (max-width:599px) {
+   .fifth{
+
+      height: 80vh;
+   } 
+ }
+
+ @media only screen and (max-width:690px) and (min-width:600px) {
+    .sixth .endemail .enter2 {
+       width: 40vw;
+    }
+    .fifth{
+      height:90vh ;
+   }
+    .emailbox {
+       width: 40vw;
+    }
+ }
+
+ @media only screen and (max-width: 960px) {
+    
+
+    .nav .netflixIcon img {
+       height: 24px;
+    }
+
+    .firstline {
+       font-size: 2rem;
+    }
+
+    .secondline {
+       font-size: 1.09rem;
+    }
+
+    .thirdline {
+       font-size: 1.05rem;
+    }
+    .second{
+      height: 90vh;
+    }
+    .second .sec {
+      
+      flex-direction: column;
+      align-items: center;
+   }
+   .second .sec .textpart {
+    width: 100vw;
+    align-items: center;
+   }
+   .second .sec .textpart .first1 {
+     font-size: 2rem;
+
+   }
+   .second .sec .textpart .second1 {
+     font-size: 1.09rem;
+     padding-right: 25px;
+     padding-left: 25px;
+     text-align: center;
+   }
+   .second .sec .imagepart {
+      margin-top: 60px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      
+    }
+   .imagepart .container {
+      width: 65vw;
+      height: 40vh;}
+
+      .imagepart .container .frame{
+         width: 65vw;
+         height: 40vh;
+      }
+      
+      .parent{
+         flex-direction: column;
+      }
+      .cartoon{
+         align-items: flex-start;
+      }
+      .cartoon img{
+        width: 80vw;
+      }
+      .textchild{ 
+         order: -1;
+         width: 80vw;
+         margin-top: 22px;
+         
+         }
+         .textchild .p1{
+            text-align: center;
+            font-size: 2rem;
+         }
+         .textchild .p2{
+            text-align: center;
+          font-size: 1.09rem;
+         }
+      .sixth .heading {
+         font-size: 2rem;
+      }
+    .sixth .endline {
+       font-size: 1.05rem;
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+
+    .sixth .questions .que {
+       height: 70px;
+
+    }
+
+    .sixth .questions .que .Q {
+       font-size: 1.09rem;
+    }
+
+    .seven {
+       height: 470px;
+    }
+
+    .footer ul {
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(8, 1fr);
+    }
+
+    .seven .footer {
+       margin-top: 22px;
+    }
+ }
+
+ @media only screen and (max-width:1280px) {
+    .nav {
+       width: 90vw;
+    }
+    .second .sec {
+      justify-content:space-between;
+      padding: 30px;
+    }
+    
+    .second .sec .textpart .second1{
+      padding-right: 15px;
+    }
+    
+    
+    }
+   
+
+    .sixth .questions {
+       width: 90vw;
+    }
+ 
+ @media only screen and (max-width:1279px) and (min-width:961px) {
+   .second .sec .imagepart {
+      width: 52vw;
+      
+    }
+    .imagepart .container {
+      width: 45vw;
+      height: 35vw;
+    }
+    .imagepart .container .frame{
+      width: 46vw;
+      height: 35vw;}
+      .imagepart .container .background {
+         padding-left: 6.4vw;
+       }
+       .cartoon img{
+         width: 47vw;
+       }
+       .textchild{
+         width: 47vw;
+       }
+ }
