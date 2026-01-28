@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(130deg,rgb(85, 0, 255) ,green);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 span{
+    color: rgb(7, 168, 7);
+}
+.passwordcase{
+  display: flex;  
+  border: 2px solid black;
+  background-color: white;
+  align-items: center;
+  width: 80%;
+  max-width: 500px;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 22px;
+  padding: 22px;
+  margin: 40px;
+}
+.passwordcase input{
+    border: none;
+    outline: none;
+}
+.passwordcase img{
+    width: 20px;
+    
+}
+button{
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+    padding: 10px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+button img{
+    width: 20px;
+}
+
