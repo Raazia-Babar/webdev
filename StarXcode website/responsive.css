@@ -1,0 +1,657 @@
+@media(max-width:1200px){
+    .card .dec{
+        font-size:13px ;
+    }
+    .poster{
+        
+        height: 500px;
+    }
+   
+}
+@media (max-width :1094px){
+    .navBar{
+        padding: 12px 20px;
+    }
+    .icon img{
+        width: 30px;
+    }
+    .icon span{
+        font-size: 30px;
+    }
+    button{
+        width: 110px;
+        height: 30px;
+        font-size: 14px;
+        border-radius: 9px;
+    }
+    .span{
+        width: 19px;
+        height: 30px;
+
+    }
+    .main .p{
+        margin-top: 100px;
+        font-size: 16px;
+    }
+    .main .p2 {
+     font-size: 34px;
+     font-weight: 600;
+    }
+    .main .p2 span{
+        font-size: 34px;
+        font-weight: 600; 
+    }
+    .main .p3{
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .main .p3 img{
+        width: 200px;
+    }
+    .main .p4{
+        width: 510px;
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .card .heading{
+     font-size: 20px;
+    }
+    .card .dec{
+        font-size: 12px;
+    }
+    .poster{
+        
+        height: 450px;
+        background-position: bottom right;
+    }
+    .about{
+        flex: 1.5;
+    }
+ .about span{
+    font-size: 35px;
+ }
+ .about .imge{
+    width: 35px;
+    height: 35px;
+  }
+  .about p{
+    width: 250px;
+  }
+  .socials i img{
+    width: 15px;
+    height: 15px;
+   margin: 8px;
+  }
+  .footer-section a ,i{
+    font-size: 12px;
+  }
+  .text{
+    margin-top: 80px;
+  }
+  .text div .p10{
+    font-size: 34px;
+    width:550px;
+  }
+  .text div button{
+    margin-top: 30px;
+}
+.text div img{
+    width:90px ;
+    height: 190px;
+}
+
+}
+@media (max-width:950px){
+    ul li{
+        font-size: 14px;
+    }
+    .ul{
+        gap: 12px;
+    }
+    .card .dec{
+        padding: 12px 10px;
+        font-size: 14px;
+        width: auto;
+        height: max-content;
+    }
+     .card .heading{
+        font-size: 22px;
+    }
+    
+    .flex{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .card{
+        width: calc(40%);
+        max-width: 300px;
+       }
+       .poster{
+        height: 400px;
+       }
+       .p7{
+        font-size: 30px;
+        width: 350px;
+       }
+       .p9{
+        font-size: 30px;
+       }
+       .p8{
+        font-size: 12px;
+        width: 350px;
+       }
+       .clients li{
+        height: 70px;
+    width: 70px;
+       }
+       .clients{
+margin: 20px;
+column-gap: 20px;
+       }
+       .text{
+        margin-top: 75px;
+      }
+      .text div .p10{
+        font-size: 30px;
+        width:490px;
+      }
+      
+    .text div img{
+        width:70px ;
+        height: 170px;
+    }
+    .about span{
+        font-size:30px ;
+    }
+    .about img{
+        width: 30px;
+      }
+      .about p{
+        font-size: 12px;
+        width: 150px;
+       }  
+}
+@media (max-width: 769px) {
+    
+
+    .ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 250px;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding-top: 60px;
+        gap: 20px;
+        text-align: left;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    ul li {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    
+    .hamburger {
+        display: block;
+        
+        
+    }
+    .ul{
+       height: fit-content;
+        background-color:#0e0b22
+    }
+    
+
+    .navBar.active ul.ul {
+        display: flex;
+    }
+    .main .p{
+        margin-top: 80px;
+        font-size: 14px;
+    }
+    .main .p .line{
+        width: 20px;
+    }
+    .main .p .ci{
+        width: 15px;
+        width: 15px;
+    }
+    .main .p2 {
+        font-size: 30px;
+        font-weight: 600;
+       }
+       .main .p2 span{
+           font-size: 30px;
+           font-weight: 600; 
+       }
+       .main .p3{
+           font-size: 30px;
+           font-weight: 600;
+       }
+       .main .p3 img{
+           width: 190px;
+       }
+       .main .p4{
+           width: 510px;
+           font-size: 13px;
+           padding-top: 20px;
+           padding-bottom: 20px;
+       }
+       .main .p5 ,.p6{
+        font-size: 24px;
+       }
+       .poster{
+       
+        height: 350px;
+       }
+       .p7{
+        width: 300px;
+        font-size: 26px;
+        font-weight: 500;
+        margin: 20px 20px 10px 20px;
+       }
+       
+       .p8{
+        font-size: 10px;
+        margin: 0px 20px;
+        width: 300px;
+       }
+       .text{
+        margin-top: 70px;
+      }
+      .text div .p10{
+        font-size: 28px;
+        width:440px;
+      }
+      
+    .text div img{
+        width:60px ;
+        height: 150px;
+    } 
+    .utility li a, .utility p i{
+        font-size: 8px;
+    }
+    .footer-section li , .footer-section p{
+    
+     padding-top: 1px;
+     padding-bottom: 1px;
+    } 
+    .footer-section h4{
+        margin-bottom: 3px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .contacting p{
+        margin-top: 2px;
+    }
+    .c span{
+        font-size: 23px;
+    }
+    .c img{
+        width: 25px;
+        height: 25px;
+    }
+    .socials img{
+        margin: 2px;
+    }
+    
+   
+       
+}
+@media(max-width:652px){
+.clients li{
+    width: 60px;
+    height: 60px;
+
+}
+.text{
+    margin-top: 60px;
+  }
+  .text div .p10{
+    font-size: 26px;
+    width:405px;
+  }
+  
+.text div img{
+    width:60px ;
+    height: 130px;
+}  
+}
+@media(max-width:590px){
+    .main .p{
+        font-size: 12px;
+    }
+    .main .p .line{
+        width: 20px;
+    }
+    .main .p .ci{
+        width: 15px;
+        width: 15px;
+    }
+    .main .p2 {
+        font-size: 28px;
+        font-weight: 600;
+       }
+       .main .p2 span{
+           font-size: 28px;
+           font-weight: 600; 
+       }
+       .main .p3{
+           font-size: 28px;
+           font-weight: 600;
+       }
+       .main .p3 img{
+           width: 190px;
+       }
+       .main .p4{
+           width: 510px;
+           font-size: 13px;
+           
+           padding: 18px  30px;
+       }
+       .card .heading{
+        font-size: 20px;
+       }
+       .card .dec{
+           font-size: 12px;
+       }
+       .poster{
+       
+        
+        height: 300px;
+       }
+       .p7{
+        width: 250px;
+       }
+       .p8{
+        width: 250px;
+       }
+       .clients{
+        column-gap: 10px;
+       }
+       .clients li{
+        width: 53px;
+        height: 53px;
+    
+    }
+    .text{
+        margin-top: 55px;
+      }
+      .text div .p10{
+        font-size: 22px;
+        width:345px;
+      }
+      .footer-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+      }
+      .about{
+        grid-column: 1; 
+    grid-row: 1;
+      }
+      .links{
+        grid-column: 2;
+    grid-row: 1; 
+      }
+      .services{
+        grid-column: 3; 
+        grid-row: 1; 
+      }
+      .contacting{
+        margin-top: 134px;
+        grid-column: 3;
+    grid-row: 1;  
+      }
+      .footer-section {
+        padding: 1px;
+      }
+      .about{
+        padding-left: 10px;
+      }
+      .c span{
+        font-size: 20px;
+      }
+}
+@media(max-width:500px){
+    .main .p{
+        margin-top: 70px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .main .p2, .main .p2 span ,.main .p3{
+        font-size: 26px;
+    }
+    
+
+
+}
+@media (max-width: 480px) {
+    .icon span {
+        font-size: 30px;
+    }
+
+    .navBar {
+        padding: 12px 20px;
+    }
+
+    button {
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .span{
+        width: 15px;
+        height: 30px;
+
+    }
+    ul li {
+        font-size: 14px;
+    }
+    .main .p{
+        margin-top: 30px;
+        font-size: 8px;
+    }
+    .main .p .line{
+        width: 20px;
+    }
+    .main .p .ci{
+        width: 15px;
+        width: 15px;
+    }
+    .main .p2 {
+        font-size: 22px;
+        font-weight: 600;
+       }
+       .main .p2 span{
+           font-size: 22px;
+           font-weight: 600; 
+       }
+       .main .p3{
+           font-size: 22px;
+           font-weight: 600;
+       }
+       .main .p3 img{
+           width: 180px;
+       }
+       .main .p4{
+           width: 359px;
+           font-size: 10px;
+           
+
+       }
+       .card .dec{
+        padding: 12px 10px;
+        font-size: 14px;
+        width: auto;
+        height: max-content;
+    }
+     .card .heading{
+        font-size: 22px;
+    }
+    
+    .flex{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .card{
+        width: calc(90%);
+        max-width: 300px;
+       }
+       .main .p5 ,.p6{
+        font-size: 20px;
+       }
+       .cardRow1{
+        margin: 10px;
+       }
+       .endpoint img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
+       .btn2{
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 13px;
+        height: 48px;
+       }
+       .poster{
+       
+        height: 250px;
+       }
+       .p7 {
+        font-size: 20px;
+        width: 200px;
+       }
+       .p9{
+        font-size: 20px;
+       }
+.p8{
+    font-size:8px ;
+    width: 200px;
+}
+.clients li{
+    height: 40px;
+    width: 40px;
+}
+.text{
+    margin-top: 55px;
+  }
+  .text div .p10{
+    font-size: 18px;
+    width:285px;
+  }
+  .text div img{
+    width: 40px;
+    height: 105px;
+  }
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .about{
+    grid-column: span 2; 
+grid-row: 1;
+  }
+  .links{
+    text-align: left;
+    grid-column: 3;
+grid-row: 1; 
+  }
+  .services{
+    margin-left: 10px;
+    text-align: left;
+    grid-column: span 2; 
+    grid-row: 2; 
+  }
+  .contacting{
+    text-align: left;
+margin-top: 0px;
+    grid-column: 3;
+     grid-row: 2;  
+  }
+  .footer-section ul li a,.footer-section p i{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    
+  }
+  .footer-section {
+    padding: 1px;
+  }
+  .about{
+    padding-left: 10px;
+  }
+  .c span{
+    font-size: 20px;
+  }
+  .utility{
+    align-items: flex-start;
+  }
+ .form-container{
+    flex: 2;
+    max-width: 60vw;
+    height: 60vw;
+ }
+ .form-container h1 {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+ .form{
+    height: 40vw;
+ }
+ .form-container .pp {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 1.5vw;
+}
+ .form-container input, .form-container textarea{
+   font-size: 10px;
+ }
+ .form-container button{
+    height: 22px;
+ }
+ 
+}
+@media (max-width:380px){
+    .clients li{
+        height: 30px;
+        width: 30px;
+    }
+    .clients{
+        column-gap: 2px;
+    }
+    .text{
+        margin-top: 50px;
+      }
+      .text div .p10{
+        font-size: 18px;
+        width : 210px;
+      }
+      .text div img{
+        width: 40px;
+        height: 105px;
+      }
+      .text div button{
+        margin-top: 10px;
+      }
+      .form-container{
+        flex: 2;
+        max-width: 60vw;
+        height: 70vw;
+     }
+     .form{
+        height: 50vw;
+     }
+     .plancard button{
+        width: 70%;
+        font-size: 8px;
+     }
+    
+}
